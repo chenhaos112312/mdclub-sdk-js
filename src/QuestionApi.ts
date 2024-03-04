@@ -517,7 +517,7 @@ export const getList = (
   params: GetListParams = {},
 ): Promise<QuestionsResponse> =>
   getRequest(
-    buildURL('/questions', params, [
+    buildURL('/questions2', params, [
       'page',
       'per_page',
       'order',
